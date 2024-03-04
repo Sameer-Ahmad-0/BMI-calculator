@@ -1,0 +1,79 @@
+.main{
+  width: 100%;
+      max-width: 800px; /* Adjust the maximum width as needed */
+      margin: 0 auto; /* Center the main div */
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+}
+
+.container{
+  width: 48%; /* Adjust the width of child divs as needed */
+  display: inline-block;
+  margin: 0 1%; /* Adjust the margin between child divs as needed */
+  background-color: #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.input{
+  width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+}
+
+.small{
+  width: 200px; /* Adjust the width as needed */
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+      margin-top :15px;
+      text-align: center;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 15px;
+}
+.btn:hover{
+  background-color: #fff;
+      color: #4CAF50;
+}
+
+.btn1{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 30px;
+  margin-top:15px;
+}
+.btn1:hover{
+  background-color: #fff;
+      color: #4CAF50;
+}
