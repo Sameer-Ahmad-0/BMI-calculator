@@ -62,7 +62,6 @@ function App() {
             <button className='btn'
               type='submit'
               onClick={calcBmi}
-              onChange={calcBmi}
             >submit</button>
             <button className='btn1'
               type='submit'
