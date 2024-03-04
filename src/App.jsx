@@ -9,13 +9,20 @@ function App() {
   const [bmi, setBmi] = useState("");
 
   let calcBmi = (e) => {
+    
+   const calculate =()=>{
+const weight=parseFloat(weight)/2.20462;
+const height =parseFloat(height)/0.3048;
+
+   }
 
     if (weight === 0 || height === 0) {
       alert("Enter your valid weight and height");
     }
     else {
-      let bmi = (weight / (height * height) * 703)
-      setBmi(bmi.toFixed(1));
+      let bmi = ((weight) / (height ** 2))
+      
+      setBmi(bmi.toFixed(2));
 
       if (bmi < 25) {
         setMessage("you are under weight");
@@ -41,7 +48,7 @@ function App() {
           <h1>Bmi Calculator</h1>
           <div className='container'>
             <form onSubmit={calcBmi}>
-              <label>Weight in LBS</label>
+              <label>Weight in KG</label>
               <input type="text" placeholder='Enter your weight here!'
                 value={weight}
                 className='input'
