@@ -25,7 +25,7 @@ function App() {
         setMessage("you are healthy");
       }
       else {
-        setMessage("Thank you for visting");
+        setMessage("you are over weight");
       }
     }
   }

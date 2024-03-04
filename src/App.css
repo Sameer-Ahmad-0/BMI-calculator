@@ -36,6 +36,9 @@
       box-sizing: border-box;
       margin-top :15px;
       text-align: center;
+      border-radius: 30px;
+      background-color: rgb(198, 206, 214);
+      border: solid 2px rgb(216, 209, 209);
 }
 .btn{
   display: inline-block;
@@ -76,4 +79,12 @@
 .btn1:hover{
   background-color: #fff;
       color: #4CAF50;
+}
+.small h2:hover{
+  background-color: #4CAF50;
+  border-radius: 30px;
+}
+.small p:hover {
+  background-color: orange;
+  border-radius: 30px;
 }
